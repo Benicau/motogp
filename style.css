@@ -1,0 +1,260 @@
+
+
+body {
+    background-color: #1C2942;
+    color: white;
+
+
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation menu*/
+
+section {
+    padding-top: 80px;
+    min-height: 100vh;
+    position: relative;
+ 
+}
+
+nav {
+    height: 70px;
+    position: fixed;
+    background-color: #0B162C;
+    width: 100%;
+    line-height: 70px;
+    z-index: 100;
+}
+
+.photo img {
+    height: 60px;
+    width: auto;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    flex: 1;
+}
+
+.pilote {
+    position: relative;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    height: 270px;
+    cursor: pointer;
+}
+
+.initial {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 40px;
+    right: 0;
+    font-weight: bold;
+    opacity: 0.4;
+}
+
+#pilotes a {
+    background-color: #0B162C;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.ecurie {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 60px;
+    position: relative;
+    height: 300px;
+}
+
+h1 {
+    color: #5FC2BA;
+}
+
+.age,
+.numero,
+.nation,
+.ecu {
+    position: absolute;
+}
+
+.ecu {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: floralwhite;
+    font-weight: bold;
+}
+.gros
+{
+    font-size: 35px;
+}
+
+
+.nomecu {
+    font-weight: bold;
+    color: #5FC2BA;
+    font-size: 21px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(17, 16, 18, 0.8) 100%);
+}
+
+.nom {
+    font-weight: bold;
+    font-size: 21px;
+    position: absolute;
+    left: 2%;
+}
+
+.nation {
+    top: 65px;
+    width: 100%;
+    text-align: center;
+    color: crimson;
+}
+
+.numero {
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #5FC2BA;
+    top: 15px;
+}
+.gras
+{
+    font-size: 90px;
+    top:180px;
+}
+.imgMoto
+{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 80px;
+
+}
+.imgMoto img{
+    width: 20%;
+    height: auto;
+    
+}
+.age {
+    right: 2%;
+}
+
+.prenom {
+    font-size: 18px;
+    position: absolute;
+    left: 2%;
+    top: 26px;
+}
+
+.texte {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(17, 16, 18, 0.8) 100%);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 40%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    background-color: #0B162C;
+    line-height: 45px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+}
+.membres
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+   
+}
+.membre{
+    flex: 1;
+    text-align: center; 
+  
+}
+.membre a {
+      color: rebeccapurple;
+      display: block;
+}
+.membre a:hover {
+    color: red;
+}
+.marque
+{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.type
+{
+    width: 100%;
+    font-size: 19px;
+    text-align: center;
+}
+.onepilot
+{
+    border: 5px outset #3B556D;
+    position: relative;
+    height: 630px;
+    
+}
+.photoPilote img
+{
+    height: 500px;
+    position: absolute;
+    right :0;
+    top:100px;
+}
+.link {
+    margin-bottom: 60px;
+    border-top: 0px; 
+   
+    
+}
+.link a{
+    font-size: 16px;
+    line-height: 30px;
+    height: 30px;
+    transition: all 0.5s;
+}
+.link a:hover {
+    font-size: 18px;
+   
+}
+a:hover{
+color: #5FC2BA;
+transition: all 0.5s;
+}
+.texte:hover{
+    height: 45%;
+    transition: all 0.5s;
+}
